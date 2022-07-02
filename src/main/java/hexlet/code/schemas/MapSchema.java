@@ -8,7 +8,7 @@ public class MapSchema extends BaseSchema {
         getPredicates().add(predicate);
     }
 
-    public final MapSchema sizeOf(int size) {
+    public final MapSchema sizeof(int size) {
         Predicate<Object> predicate = (Object o) -> {
             if (o instanceof Map s) {
                 return s.size() == size;

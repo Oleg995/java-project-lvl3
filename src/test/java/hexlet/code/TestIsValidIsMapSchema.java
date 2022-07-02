@@ -31,14 +31,14 @@ public class TestIsValidIsMapSchema {
         schema.required();
         Map<String, String> data = new HashMap<>();
         data.put("key1", "value1");
-        assertThat(schema.sizeOf(2).isValid(data)).isFalse();
+        assertThat(schema.sizeof(2).isValid(data)).isFalse();
         data.put("key2", "value2");
-        assertThat(schema.sizeOf(2).isValid(data)).isTrue();
+        assertThat(schema.sizeof(2).isValid(data)).isTrue();
         data.put("key3", "value3");
-        assertThat(schema.sizeOf(2).isValid(data)).isFalse();
+        assertThat(schema.sizeof(2).isValid(data)).isFalse();
         data.clear();
         schema.clean();
-        assertThat(schema.sizeOf(0).isValid(data)).isTrue();
+        assertThat(schema.sizeof(0).isValid(data)).isTrue();
 
     }
 }
