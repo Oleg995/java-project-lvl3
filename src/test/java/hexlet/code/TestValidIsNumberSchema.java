@@ -30,6 +30,7 @@ public class TestValidIsNumberSchema {
         assertThat(schema.isValid(null)).isTrue();
         assertThat(schema.isValid(0)).isTrue();
 
+
     }
 
     @Test
