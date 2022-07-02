@@ -38,5 +38,6 @@ public class TestValidIsNumberSchema {
         assertThat(schema.range(MIN_BORDER, MAX_BORDER).isValid(NUMBER_OF_EXAMPLE2)).isTrue();
         assertThat(schema.range(MIN_BORDER, MAX_BORDER).isValid(MAX_BORDER)).isTrue();
         assertThat(schema.range(MIN_BORDER, MAX_BORDER).isValid(NUMBER_OF_EXAMPLE)).isFalse();
+        assertThat(schema.range(MIN_BORDER, MAX_BORDER).isValid(null)).isTrue();
     }
 }
