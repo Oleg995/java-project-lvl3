@@ -13,7 +13,7 @@ public class NumberSchema extends BaseSchema {
     public final NumberSchema positive() {
         Predicate<Object> predicate = (Object o) -> {
             if (o instanceof Integer s) {
-                return s >= 0;
+                return s > 0;
             }
             return true;
         };
