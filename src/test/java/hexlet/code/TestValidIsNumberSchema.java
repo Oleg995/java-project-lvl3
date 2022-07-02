@@ -10,6 +10,7 @@ public class TestValidIsNumberSchema {
     private static final Integer MIN_BORDER = 5;
     private static final Integer MAX_BORDER = 10;
     private static final Integer NUMBER_OF_EXAMPLE = 11;
+    private static final Integer NUMBER_OF_EXAMPLE2 = 7;
     @Test
     public void schemaTestIsRequired() {
         Validator v = new Validator();
@@ -31,6 +32,8 @@ public class TestValidIsNumberSchema {
         Validator v = new Validator();
         NumberSchema schema = v.number();
         assertThat(schema.range(MIN_BORDER, MAX_BORDER).isValid(MIN_BORDER)).isTrue();
+        assertThat(schema.range(MIN_BORDER, MAX_BORDER).isValid(NUMBER_OF_EXAMPLE2)).isTrue();
+        assertThat(schema.range(MIN_BORDER, MAX_BORDER).isValid(MAX_BORDER)).isTrue();
         assertThat(schema.range(MIN_BORDER, MAX_BORDER).isValid(NUMBER_OF_EXAMPLE)).isFalse();
     }
 }

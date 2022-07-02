@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hexlet.code.TestIsValidIsMapSchema" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-07-02T11:53:18" hostname="yatorogod-laptop" time="0.164">
+<testsuite name="hexlet.code.TestIsValidIsMapSchema" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-02T12:31:08" hostname="yatorogod-laptop" time="0.168">
   <properties/>
-  <testcase name="schemaTestRequired()" classname="hexlet.code.TestIsValidIsMapSchema" time="0.161"/>
-  <testcase name="schemaTestSizeOf()" classname="hexlet.code.TestIsValidIsMapSchema" time="0.002"/>
+  <testcase name="schemaTestSizeOf()" classname="hexlet.code.TestIsValidIsMapSchema" time="0.168"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

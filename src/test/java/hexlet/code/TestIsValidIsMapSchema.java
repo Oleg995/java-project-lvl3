@@ -31,6 +31,7 @@ public class TestIsValidIsMapSchema {
         schema.required();
         Map<String, String> data = new HashMap<>();
         data.put("key1", "value1");
+        assertThat(schema.isValid(data)).isTrue();
         assertThat(schema.sizeof(2).isValid(data)).isFalse();
         data.put("key2", "value2");
         assertThat(schema.sizeof(2).isValid(data)).isTrue();
