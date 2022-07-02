@@ -1,4 +1,4 @@
-package hexlet.code.Schemas;
+package hexlet.code.schemas;
 
 import java.util.LinkedList;
 import java.util.List;

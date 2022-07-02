@@ -1,6 +1,6 @@
 package hexlet.code;
 
-import hexlet.code.Schemas.NumberSchema;
+import hexlet.code.schemas.NumberSchema;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
