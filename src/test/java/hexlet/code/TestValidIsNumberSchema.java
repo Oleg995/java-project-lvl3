@@ -19,6 +19,7 @@ public class TestValidIsNumberSchema {
         assertThat(schema.required().isValid(null)).isFalse();
         assertThat(schema.isValid("5")).isFalse();
         assertThat(schema.isValid(0)).isTrue();
+        assertThat(schema.isValid(NEGATIVE_NUMBER)).isFalse();
     }
     @Test
     public void schemaTetIsPositive() {
