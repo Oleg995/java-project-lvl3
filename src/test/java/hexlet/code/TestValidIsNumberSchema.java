@@ -28,6 +28,7 @@ public class TestValidIsNumberSchema {
         assertThat(schema.positive().isValid(POSITIVE_NUMBER)).isTrue();
         assertThat(schema.isValid(NEGATIVE_NUMBER)).isFalse();
         assertThat(schema.isValid(null)).isTrue();
+        assertThat(schema.isValid(0)).isFalse();
 
     }
 
