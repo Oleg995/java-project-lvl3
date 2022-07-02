@@ -27,8 +27,8 @@ public class TestIsShape {
         assertThat(schema.isValid(human1)).isTrue();
 
         Map<String, Object> human3 = new HashMap<>();
-        human3.put("name", "");
+        human3.put("name", "Anna");
         human3.put("age", null);
-        assertThat(schema.isValid(human3)).isFalse();
+        assertThat(schema.isValid(human3)).isTrue();
     }
 }

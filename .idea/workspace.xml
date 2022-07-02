@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a34e299d-f8ca-4083-bf20-59192a5f366d" name="Changes" comment="" />
+    <list default="true" id="a34e299d-f8ca-4083-bf20-59192a5f366d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/jacoco/test/html/hexlet.code.schemas/BaseSchema.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/jacoco/test/html/hexlet.code.schemas/BaseSchema.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/jacoco/test/html/hexlet.code.schemas/NumberSchema.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/jacoco/test/html/hexlet.code.schemas/NumberSchema.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/jacoco/test/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/jacoco/test/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/jacoco/test/html/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/jacoco/test/html/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/jacoco/test/jacocoTestReport.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/jacoco/test/jacocoTestReport.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hexlet/code/TestValidIsNumberSchema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hexlet/code/TestValidIsNumberSchema.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +60,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.TestIsValidIsMapSchema.schemaTestSizeOf (1)">
+  <component name="RunManager" selected="Gradle.TestIsValidIsMapSchema">
     <configuration name="TestIsShape" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -65,6 +75,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;hexlet.code.TestIsShape&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestIsShape.shapeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hexlet.code.TestIsShape.shapeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -97,29 +130,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestIsValidIsMapSchema.schemaTestSizeOf (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hexlet.code.TestIsValidIsMapSchema.schemaTestSizeOf&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="TestValidIsNumberSchema" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -143,7 +153,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestValidIsNumberSchema.schemaTestIsRange" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestValidIsNumberSchema.schemaTetIsPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -156,7 +166,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hexlet.code.TestValidIsNumberSchema.schemaTestIsRange&quot;" />
+            <option value="&quot;hexlet.code.TestValidIsNumberSchema.schemaTetIsPositive&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -168,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestIsValidIsMapSchema.schemaTestSizeOf (1)" />
-        <item itemvalue="Gradle.TestValidIsNumberSchema.schemaTestIsRange" />
         <item itemvalue="Gradle.TestIsValidIsMapSchema" />
-        <item itemvalue="Gradle.TestValidIsNumberSchema" />
+        <item itemvalue="Gradle.TestIsShape.shapeTest" />
         <item itemvalue="Gradle.TestIsShape" />
+        <item itemvalue="Gradle.TestValidIsNumberSchema" />
+        <item itemvalue="Gradle.TestValidIsNumberSchema.schemaTetIsPositive" />
       </list>
     </recent_temporary>
   </component>

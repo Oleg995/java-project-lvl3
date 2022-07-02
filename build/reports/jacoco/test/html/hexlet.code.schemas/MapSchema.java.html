@@ -4,7 +4,7 @@ import java.util.function.Predicate;
 
 <span class="fc" id="L5">public class MapSchema extends BaseSchema {</span>
     public final void required() {
-<span class="pc bpc" id="L7" title="1 of 2 branches missed.">        Predicate&lt;Object&gt; predicate = (Object o) -&gt; o instanceof Map s;</span>
+<span class="fc bfc" id="L7" title="All 2 branches covered.">        Predicate&lt;Object&gt; predicate = (Object o) -&gt; o instanceof Map s;</span>
 <span class="fc" id="L8">        getPredicates().add(predicate);</span>
 <span class="fc" id="L9">    }</span>
 
@@ -19,19 +19,19 @@ import java.util.function.Predicate;
 <span class="fc" id="L19">        return this;</span>
     }
     public final void shape(Map&lt;String, BaseSchema&gt; map) {
-<span class="nc" id="L22">        Predicate&lt;Object&gt; predicate = (Object o) -&gt; {</span>
-<span class="nc bnc" id="L23" title="All 2 branches missed.">            if (o instanceof Map s) {</span>
-<span class="nc" id="L24">                boolean result = true;</span>
-<span class="nc bnc" id="L25" title="All 2 branches missed.">                for (Map.Entry&lt;String, BaseSchema&gt; it : map.entrySet()) {</span>
-<span class="nc" id="L26">                    Object value = s.get(it.getKey());</span>
-<span class="nc bnc" id="L27" title="All 4 branches missed.">                    result = result &amp;&amp; it.getValue().isValid(value);</span>
-<span class="nc" id="L28">                }</span>
-<span class="nc" id="L29">                return result;</span>
+<span class="fc" id="L22">        Predicate&lt;Object&gt; predicate = (Object o) -&gt; {</span>
+<span class="pc bpc" id="L23" title="1 of 2 branches missed.">            if (o instanceof Map s) {</span>
+<span class="fc" id="L24">                boolean result = true;</span>
+<span class="fc bfc" id="L25" title="All 2 branches covered.">                for (Map.Entry&lt;String, BaseSchema&gt; it : map.entrySet()) {</span>
+<span class="fc" id="L26">                    Object value = s.get(it.getKey());</span>
+<span class="pc bpc" id="L27" title="2 of 4 branches missed.">                    result = result &amp;&amp; it.getValue().isValid(value);</span>
+<span class="fc" id="L28">                }</span>
+<span class="fc" id="L29">                return result;</span>
             }
 <span class="nc" id="L31">            return false;</span>
         };
-<span class="nc" id="L33">        getPredicates().add(predicate);</span>
-<span class="nc" id="L34">    }</span>
+<span class="fc" id="L33">        getPredicates().add(predicate);</span>
+<span class="fc" id="L34">    }</span>
 
 }
 

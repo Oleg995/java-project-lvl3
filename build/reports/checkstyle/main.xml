@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.37">
-<file name="/home/yatorogod/java-project-lvl3/src/main/java/hexlet/code/Schemas/MainSchema.java">
-</file>
-<file name="/home/yatorogod/java-project-lvl3/src/main/java/hexlet/code/Schemas/MapSchema.java">
-</file>
-<file name="/home/yatorogod/java-project-lvl3/src/main/java/hexlet/code/Schemas/NumberSchema.java">
-</file>
-<file name="/home/yatorogod/java-project-lvl3/src/main/java/hexlet/code/Schemas/StringSchema.java">
+<file name="/home/yatorogod/java-project-lvl3/src/main/java/hexlet/code/App.java">
 </file>
 <file name="/home/yatorogod/java-project-lvl3/src/main/java/hexlet/code/Validator.java">
+</file>
+<file name="/home/yatorogod/java-project-lvl3/src/main/java/hexlet/code/schemas/BaseSchema.java">
+</file>
+<file name="/home/yatorogod/java-project-lvl3/src/main/java/hexlet/code/schemas/MapSchema.java">
+</file>
+<file name="/home/yatorogod/java-project-lvl3/src/main/java/hexlet/code/schemas/NumberSchema.java">
+</file>
+<file name="/home/yatorogod/java-project-lvl3/src/main/java/hexlet/code/schemas/StringSchema.java">
 </file>
 </checkstyle>

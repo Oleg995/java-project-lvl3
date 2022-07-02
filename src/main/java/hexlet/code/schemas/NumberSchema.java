@@ -15,7 +15,7 @@ public class NumberSchema extends BaseSchema {
             if (o instanceof Integer s) {
                 return s >= 0;
             }
-            return false;
+            return true;
         };
         getPredicates().add(predicate);
         return this;

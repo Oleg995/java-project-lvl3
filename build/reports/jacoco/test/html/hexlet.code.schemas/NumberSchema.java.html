@@ -2,7 +2,7 @@
 
 import java.util.function.Predicate;
 
-<span class="nc" id="L5">public class NumberSchema extends BaseSchema {</span>
+<span class="fc" id="L5">public class NumberSchema extends BaseSchema {</span>
 
     public final NumberSchema required() {
 <span class="nc bnc" id="L8" title="All 2 branches missed.">        Predicate&lt;Object&gt; predicate = (Object o) -&gt; o instanceof Integer s;</span>
@@ -11,14 +11,14 @@ import java.util.function.Predicate;
     }
 
     public final NumberSchema positive() {
-<span class="nc" id="L14">        Predicate&lt;Object&gt; predicate = (Object o) -&gt; {</span>
-<span class="nc bnc" id="L15" title="All 2 branches missed.">            if (o instanceof Integer s) {</span>
-<span class="nc bnc" id="L16" title="All 2 branches missed.">                return s &gt;= 0;</span>
+<span class="fc" id="L14">        Predicate&lt;Object&gt; predicate = (Object o) -&gt; {</span>
+<span class="fc bfc" id="L15" title="All 2 branches covered.">            if (o instanceof Integer s) {</span>
+<span class="pc bpc" id="L16" title="1 of 2 branches missed.">                return s &gt;= 0;</span>
             }
-<span class="nc" id="L18">            return false;</span>
+<span class="fc" id="L18">            return true;</span>
         };
-<span class="nc" id="L20">        getPredicates().add(predicate);</span>
-<span class="nc" id="L21">        return this;</span>
+<span class="fc" id="L20">        getPredicates().add(predicate);</span>
+<span class="fc" id="L21">        return this;</span>
     }
 
     public final NumberSchema range(Integer minBorders, Integer maxBorders) {
