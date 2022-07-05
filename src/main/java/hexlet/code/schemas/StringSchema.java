@@ -11,7 +11,7 @@ public class StringSchema extends BaseSchema {
             }
             return false;
         };
-        getPredicates().add(predicate);
+        predicateList(predicate);
         return this;
     }
 
@@ -22,7 +22,7 @@ public class StringSchema extends BaseSchema {
             }
             return false;
         };
-        getPredicates().add(predicate);
+        predicateList(predicate);
         return this;
     }
 
@@ -33,7 +33,7 @@ public class StringSchema extends BaseSchema {
             }
             return false;
         };
-        getPredicates().add(predicate);
+        predicateList(predicate);
         return this;
     }
 }

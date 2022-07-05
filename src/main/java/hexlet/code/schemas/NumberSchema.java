@@ -6,7 +6,7 @@ public class NumberSchema extends BaseSchema {
 
     public final NumberSchema required() {
         Predicate<Object> predicate = (Object o) -> o instanceof Integer s;
-        getPredicates().add(predicate);
+        predicateList(predicate);
         return this;
     }
 
@@ -17,7 +17,7 @@ public class NumberSchema extends BaseSchema {
             }
             return true;
         };
-        getPredicates().add(predicate);
+        predicateList(predicate);
         return this;
     }
 
@@ -28,7 +28,7 @@ public class NumberSchema extends BaseSchema {
             }
             return false;
         };
-        getPredicates().add(predicate);
+        predicateList(predicate);
         return this;
     }
 }

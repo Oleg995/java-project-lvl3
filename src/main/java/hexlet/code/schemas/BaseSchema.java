@@ -8,12 +8,12 @@ import java.util.function.Predicate;
 public abstract class BaseSchema {
     private final List<Predicate<Object>> predicates = new LinkedList<>();
 
-    public final boolean isValid(Object o) {
-        return predicates.stream().allMatch(p -> p.test(o));
+    final void  predicateList(Predicate<Object> predicate) {
+        predicates.add(predicate);
     }
 
-    public final List<Predicate<Object>> getPredicates() {
-        return predicates;
+    public final boolean isValid(Object o) {
+        return predicates.stream().allMatch(p -> p.test(o));
     }
 
     public final void clean() {

@@ -5,7 +5,7 @@ import java.util.function.Predicate;
 public class MapSchema extends BaseSchema {
     public final void required() {
         Predicate<Object> predicate = (Object o) -> o instanceof Map s;
-        getPredicates().add(predicate);
+        predicateList(predicate);
     }
 
     public final MapSchema sizeof(int size) {
@@ -15,7 +15,7 @@ public class MapSchema extends BaseSchema {
             }
             return false;
         };
-        getPredicates().add(predicate);
+        predicateList(predicate);
         return this;
     }
     public final void shape(Map<String, BaseSchema> map) {
@@ -30,7 +30,7 @@ public class MapSchema extends BaseSchema {
             }
             return false;
         };
-        getPredicates().add(predicate);
+        predicateList(predicate);
     }
 
 }
