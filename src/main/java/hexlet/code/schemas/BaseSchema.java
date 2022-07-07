@@ -2,13 +2,12 @@ package hexlet.code.schemas;
 
 import java.util.LinkedList;
 import java.util.List;
-
 import java.util.function.Predicate;
 
 public abstract class BaseSchema {
     private final List<Predicate<Object>> predicates = new LinkedList<>();
-
-    final void  predicateList(Predicate<Object> predicate) {
+// забываю правильно называть методы)
+    final void addValidation(Predicate<Object> predicate) {
         predicates.add(predicate);
     }
 
