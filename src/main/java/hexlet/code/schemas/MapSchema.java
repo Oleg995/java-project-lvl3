@@ -19,7 +19,7 @@ public class MapSchema extends BaseSchema {
         addValidation(predicate);
         return this;
     }
-    
+
     public final void shape(Map<String, BaseSchema> map) {
         Predicate<Object> predicate = (Object o) -> {
             if (o instanceof Map s) {
@@ -34,6 +34,5 @@ public class MapSchema extends BaseSchema {
         };
         addValidation(predicate);
     }
-
 }
 
